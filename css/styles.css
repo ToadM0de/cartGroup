@@ -1,17 +1,75 @@
-/* Error: This file is already being loaded.
- *   ,
- * 1 | @import "styles.scss";
- *   |         ^^^^^^^^^^^^^
- *   '
- *   scss\styles.scss 1:9  root stylesheet */
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
 
-body::before {
-  font-family: "Source Code Pro", "SF Mono", Monaco, Inconsolata, "Fira Mono",
-      "Droid Sans Mono", monospace, monospace;
-  white-space: pre;
-  display: block;
-  padding: 1em;
-  margin-bottom: 1em;
-  border-bottom: 2px solid black;
-  content: 'Error: This file is already being loaded.\a   \2577 \a 1 \2502  @import "styles.scss";\d\a   \2502          ^^^^^^^^^^^^^\a   \2575 \a   scss\\styles.scss 1:9  root stylesheet';
+html,
+body {
+  height: 100%;
+}
+
+h1,
+h2,
+h3,
+h4,
+h5,
+h6,
+p {
+  margin-bottom: 16px;
+}
+
+nav {
+  height: 50px;
+  background-color: white;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  font-family: "Segoe UI", Tahoma, Geneva, Verdana, sans-serif;
+  font-size: 16px;
+}
+nav .logoHolder {
+  height: 100%;
+  display: flex;
+}
+nav .logoHolder img {
+  height: 100%;
+}
+nav .logoHolder p {
+  position: relative;
+  top: 20px;
+  padding-left: 5px;
+  font-size: 16px;
+  font-family: "Segoe UI", Tahoma, Geneva, Verdana, sans-serif;
+}
+nav .search {
+  height: 100%;
+  padding-left: 70px;
+  padding-top: 15px;
+}
+nav .search input {
+  height: 33px;
+  width: 604px;
+  border: none;
+  border-color: lightgrey;
+  background-color: rgba(88, 124, 131, 0.2);
+}
+nav .search input img {
+  height: 100%;
+}
+nav .search input ::placeholder {
+  color: gray;
+  font-style: italic;
+  font-size: 16px;
+  font-family: "Segoe UI", Tahoma, Geneva, Verdana, sans-serif;
+}
+nav .links {
+  width: 40%;
+  display: flex;
+  align-items: center;
+  justify-content: space-around;
+}
+nav .links a {
+  text-decoration: none;
+  color: black;
 }
