@@ -47,6 +47,12 @@ nav .search {
   padding-left: 70px;
   padding-top: 15px;
 }
+nav .search .searchImg {
+  height: 20px;
+  position: absolute;
+  margin-left: -598px;
+  margin-top: 5px;
+}
 nav .search input {
   height: 33px;
   width: 604px;
