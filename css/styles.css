@@ -47,12 +47,6 @@ nav .search {
   padding-left: 70px;
   padding-top: 15px;
 }
-nav .search .searchImg {
-  height: 20px;
-  position: absolute;
-  margin-left: -598px;
-  margin-top: 5px;
-}
 nav .search input {
   height: 33px;
   width: 604px;
@@ -134,7 +128,8 @@ nav .links a {
 }
 #aboutBody .content section .picTextHolder .disc1 #text1 {
   padding-left: 25px;
-  font-size: 16px;
+  font-size: 14px;
+  font-weight: bold;
 }
 #aboutBody .content section {
   font-family: "Segoe UI", Tahoma, Geneva, Verdana, sans-serif;
@@ -168,7 +163,8 @@ nav .links a {
 }
 #aboutBody .content section .picTextHolder2 .disc2 #text2 {
   padding-left: 25px;
-  font-size: 16px;
+  font-size: 14px;
+  font-weight: bold;
 }
 
 nav {
@@ -198,6 +194,12 @@ nav .search {
   height: 100%;
   padding-left: 70px;
   padding-top: px;
+}
+nav .search .searchImg {
+  height: 20px;
+  position: absolute;
+  margin-left: -598px;
+  margin-top: 5px;
 }
 nav .search input {
   height: 33px;
