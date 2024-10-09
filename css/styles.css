@@ -73,3 +73,149 @@ nav .links a {
   text-decoration: none;
   color: black;
 }
+
+#aboutBody {
+  height: 100%;
+  width: 100%;
+}
+#aboutBody .content {
+  padding: 20px 50px;
+  /* height: %; */
+  background-color: white;
+  display: flex;
+  align-items: center;
+  justify-content: space-evenly;
+  flex-direction: column;
+  font-family: "Segoe UI", Tahoma, Geneva, Verdana, sans-serif;
+}
+#aboutBody .content section {
+  font-family: "Segoe UI", Tahoma, Geneva, Verdana, sans-serif;
+}
+#aboutBody .content section .picTextHolder {
+  display: flex;
+  align-items: center;
+  justify-content: space-evenly;
+  width: 100%;
+  height: 100%;
+  margin: 0 auto;
+  padding-top: 100px;
+  margin-top: 50px;
+}
+#aboutBody .content section .picTextHolder img {
+  height: 587px;
+  width: 393px;
+}
+#aboutBody .content section .picTextHolder .disc1 {
+  width: 100%;
+  padding-bottom: 250px;
+}
+#aboutBody .content section .picTextHolder .disc1 .bn {
+  font-family: Arial, Helvetica, sans-serif;
+  text-transform: uppercase;
+  font-size: 32px;
+  padding-left: 340px;
+  position: relative;
+  top: -75px;
+}
+#aboutBody .content section .picTextHolder .disc1 #title1 {
+  padding-left: 25px;
+  font-size: 20px;
+  font-weight: bold;
+  display: flex;
+  align-items: center;
+  justify-content: space-evenly;
+  padding-bottom: 40px;
+}
+#aboutBody .content section .picTextHolder .disc1 #text1 {
+  padding-left: 25px;
+  font-size: 16px;
+}
+#aboutBody .content section {
+  font-family: "Segoe UI", Tahoma, Geneva, Verdana, sans-serif;
+}
+#aboutBody .content section .picTextHolder2 {
+  display: flex;
+  align-items: center;
+  justify-content: space-evenly;
+  width: 100%;
+  height: 100%;
+  margin: 0 auto;
+  padding-bottom: 100px;
+  padding-top: 100px;
+  margin-top: 100px;
+}
+#aboutBody .content section .picTextHolder2 img {
+  height: 587px;
+  width: 393px;
+}
+#aboutBody .content section .picTextHolder2 .disc2 {
+  width: 100%;
+  padding-bottom: 250px;
+}
+#aboutBody .content section .picTextHolder2 .disc2 .find {
+  font-family: Arial, Helvetica, sans-serif;
+  text-transform: uppercase;
+  font-size: 32px;
+  padding-left: 340px;
+  position: relative;
+  top: -75px;
+}
+#aboutBody .content section .picTextHolder2 .disc2 #text2 {
+  padding-left: 25px;
+  font-size: 16px;
+}
+
+nav {
+  height: 50px;
+  background-color: white;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  font-family: "Segoe UI", Tahoma, Geneva, Verdana, sans-serif;
+  font-size: 16px;
+}
+nav .logoHolder {
+  height: 100%;
+  display: flex;
+}
+nav .logoHolder img {
+  height: 100%;
+}
+nav .logoHolder p {
+  position: relative;
+  top: 20px;
+  padding-left: 5px;
+  font-size: 16px;
+  font-family: "Segoe UI", Tahoma, Geneva, Verdana, sans-serif;
+}
+nav .search {
+  height: 100%;
+  padding-left: 70px;
+  padding-top: px;
+}
+nav .search input {
+  height: 33px;
+  width: 604px;
+  border: none;
+  border-color: lightgrey;
+  background-color: rgba(88, 124, 131, 0.2);
+}
+nav .search input img {
+  height: 100%;
+}
+nav .search input ::placeholder {
+  color: gray;
+  font-style: italic;
+  font-size: 16px;
+  font-family: "Segoe UI", Tahoma, Geneva, Verdana, sans-serif;
+}
+nav .links {
+  width: 40%;
+  display: flex;
+  align-items: center;
+  justify-content: space-around;
+}
+nav .links a {
+  text-decoration: none;
+  color: black;
+}
