@@ -238,9 +238,8 @@ nav .links a {
 }
 
 .homePage {
-  height: 3000px;
+  height: 1000px;
   width: 100%;
-  background-color: cadetblue;
 }
 .homePage .homeHero {
   height: 530px;
@@ -273,4 +272,90 @@ nav .links a {
 .homePage .homeHero .heroText3 {
   margin-left: 800px;
   padding-top: 300px;
+}
+.homePage .homeBooks {
+  height: 1000px;
+  width: 100%;
+}
+.homePage .homeBooks img {
+  height: 361px;
+  width: 246px;
+  margin-top: 150px;
+}
+.homePage .homeBooks .mockingbird {
+  margin-left: 130px;
+}
+.homePage .homeBooks .becoming {
+  margin-left: 250px;
+}
+.homePage .homeBooks .firestarter {
+  margin-left: 250px;
+}
+.homePage .homeBooks p {
+  width: 363px;
+  text-align: center;
+  margin-top: 50px;
+}
+.homePage .homeBooks .homep1 {
+  float: left;
+  margin-left: 60px;
+}
+.homePage .homeBooks .homep2 {
+  float: left;
+  margin-left: 150px;
+}
+.homePage .homeBooks .homep3 {
+  float: left;
+  margin-left: 130px;
+}
+.homePage .homeBooks .prices {
+  font-size: 32px;
+  font-weight: bold;
+}
+.homePage .homeBooks .prices .mockPrice {
+  float: left;
+  margin-left: 60px;
+}
+.homePage .homeBooks .prices .becomePrice {
+  float: left;
+  margin-left: 150px;
+}
+.homePage .homeBooks .prices .firePrice {
+  float: left;
+  margin-left: 130px;
+}
+.homePage .homeBooks .addcartsec {
+  font-size: 13px;
+  text-align: center;
+  margin-top: 280px;
+}
+.homePage .homeBooks .addcartsec .addtocartbtn1 {
+  float: left;
+  border: solid;
+  border-color: black;
+  border-width: 2px;
+  height: 50px;
+  width: 150px;
+  padding-top: 15px;
+  margin-left: 160px;
+}
+.homePage .homeBooks .addcartsec .addtocartbtn2 {
+  float: left;
+  border: solid;
+  border-color: black;
+  border-width: 2px;
+  height: 50px;
+  width: 150px;
+  padding-top: 15px;
+  margin-left: 370px;
+}
+.homePage .homeBooks .addcartsec .addtocartbtn3 {
+  float: left;
+  border: solid;
+  border-color: black;
+  border-width: 2px;
+  height: 50px;
+  width: 150px;
+  padding-top: 15px;
+  margin-left: 340px;
 }

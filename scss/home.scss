@@ -1,7 +1,6 @@
 .homePage {
-  height: 3000px;
+  height: 1000px;
   width: 100%;
-  background-color: cadetblue;
   .homeHero {
     height: 530px;
     width: 1200px;
@@ -34,6 +33,97 @@
     .heroText3 {
       margin-left: 800px;
       padding-top: 300px;
+    }
+  }
+  .homeBooks {
+    height: 1000px;
+    width: 100%;
+
+    img {
+      height: 361px;
+      width: 246px;
+      margin-top: 150px;
+    }
+    .mockingbird {
+      margin-left: 130px;
+    }
+    .becoming {
+      margin-left: 250px;
+    }
+    .firestarter {
+      margin-left: 250px;
+    }
+
+    p {
+      width: 363px;
+      text-align: center;
+      margin-top: 50px;
+    }
+
+    .homep1 {
+      float: left;
+      margin-left: 60px;
+    }
+    .homep2 {
+      float: left;
+      margin-left: 150px;
+    }
+    .homep3 {
+      float: left;
+      margin-left: 130px;
+    }
+    .prices {
+      font-size: 32px;
+      font-weight: bold;
+
+      .mockPrice {
+        float: left;
+        margin-left: 60px;
+      }
+      .becomePrice {
+        float: left;
+        margin-left: 150px;
+      }
+      .firePrice {
+        float: left;
+        margin-left: 130px;
+      }
+    }
+    .addcartsec {
+      font-size: 13px;
+      text-align: center;
+      margin-top: 280px;
+
+      .addtocartbtn1 {
+        float: left;
+        border: solid;
+        border-color: black;
+        border-width: 2px;
+        height: 50px;
+        width: 150px;
+        padding-top: 15px;
+        margin-left: 160px;
+      }
+      .addtocartbtn2 {
+        float: left;
+        border: solid;
+        border-color: black;
+        border-width: 2px;
+        height: 50px;
+        width: 150px;
+        padding-top: 15px;
+        margin-left: 370px;
+      }
+      .addtocartbtn3 {
+        float: left;
+        border: solid;
+        border-color: black;
+        border-width: 2px;
+        height: 50px;
+        width: 150px;
+        padding-top: 15px;
+        margin-left: 340px;
+      }
     }
   }
 }
