@@ -16,9 +16,11 @@ nav {
 
     img {
       height: 100%;
+      padding-left: 10px;
     }
 
     p {
+      width: 120px;
       position: relative;
       top: 20px;
       padding-left: 5px;
@@ -29,7 +31,7 @@ nav {
   .search {
     height: 100%;
     padding-left: 70px;
-    padding-top: px;
+    padding-top: 10px;
 
     .searchImg {
       height: 20px;
@@ -54,6 +56,7 @@ nav {
         font-style: italic;
         font-size: 16px;
         font-family: "Segoe UI", Tahoma, Geneva, Verdana, sans-serif;
+        // padding-bottom: 50px;
       }
     }
   }
@@ -63,6 +66,7 @@ nav {
     display: flex;
     align-items: center;
     justify-content: space-around;
+    padding-right: -50px;
     #about2 {
       font-weight: bold;
     }
@@ -75,6 +79,25 @@ nav {
     a {
       text-decoration: none;
       color: black;
+    }
+  }
+  .signInOut {
+    height: 100%;
+    display: flex;
+    a {
+      text-decoration: none;
+      color: black;
+      width: 100%;
+      display: flex;
+      align-items: center;
+      justify-content: space-around;
+      display: flex;
+      padding-right: 10px;
+
+      img {
+        height: 60%;
+        padding-left: 10px;
+      }
     }
   }
 }
