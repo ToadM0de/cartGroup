@@ -232,6 +232,9 @@ nav .links #about2 {
 nav .links #home2 {
   font-weight: bold;
 }
+nav .links #books2 {
+  font-weight: bold;
+}
 nav .links a {
   text-decoration: none;
   color: black;
