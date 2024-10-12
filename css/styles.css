@@ -384,6 +384,9 @@ nav .links #blog2 {
 nav .links #account2 {
   font-weight: bold;
 }
+nav .links #cart2 {
+  font-weight: bold;
+}
 nav .links a {
   text-decoration: none;
   color: black;
