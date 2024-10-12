@@ -378,6 +378,12 @@ nav .links #home2 {
 nav .links #books2 {
   font-weight: bold;
 }
+nav .links #blog2 {
+  font-weight: bold;
+}
+nav .links #account2 {
+  font-weight: bold;
+}
 nav .links a {
   text-decoration: none;
   color: black;
@@ -402,7 +408,6 @@ nav .signInOut a img {
 }
 
 .homePage {
-  height: 1000px;
   width: 100%;
 }
 .homePage .homeHero {
@@ -571,4 +576,8 @@ nav .signInOut a img {
 }
 .clubBottom .clubP1 {
   margin-top: 100px;
+}
+
+.booksSec {
+  width: 100%;
 }
