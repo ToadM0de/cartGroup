@@ -581,6 +581,79 @@ nav .signInOut a img {
   margin-top: 100px;
 }
 
+.cartcart {
+  width: 100%;
+  height: 2000px;
+}
+.cartcart .cartSec1 {
+  width: 100%;
+  height: 500px;
+  border: solid;
+  border-color: black;
+  border-width: 1px;
+}
+.cartcart .cartSec1 .miseryCart {
+  margin-top: 100px;
+  margin-left: 100px;
+  float: left;
+}
+.cartcart .cartSec1 .misInfo {
+  padding-top: 110px;
+  margin-left: 310px;
+}
+.cartcart .cartSec1 .misInfo .misTitle {
+  font-weight: bold;
+}
+.cartcart .cartSec1 .misInfo .misPrice {
+  font-weight: bold;
+  position: absolute;
+}
+.cartcart .cartSec1 .misInfo .misStock {
+  position: absolute;
+  padding-top: 20px;
+}
+.cartcart .cartSec1 .misA {
+  padding-top: 80px;
+  padding-left: 310px;
+}
+.cartcart .cartSec1 .misA a {
+  color: black;
+}
+.cartcart .cartSec2 {
+  width: 100%;
+  height: 500px;
+  border: solid;
+  border-color: black;
+  border-width: 1px;
+}
+.cartcart .cartSec2 .autoCart {
+  margin-top: 100px;
+  margin-left: 100px;
+  float: left;
+}
+.cartcart .cartSec2 .autoInfo {
+  padding-top: 110px;
+  margin-left: 310px;
+}
+.cartcart .cartSec2 .autoInfo .autoTitle {
+  font-weight: bold;
+}
+.cartcart .cartSec2 .autoInfo .autoPrice {
+  font-weight: bold;
+  position: absolute;
+}
+.cartcart .cartSec2 .autoInfo .autoStock {
+  position: absolute;
+  padding-top: 20px;
+}
+.cartcart .cartSec2 .autoA {
+  padding-top: 80px;
+  padding-left: 310px;
+}
+.cartcart .cartSec2 .autoA a {
+  color: black;
+}
+
 .booksetSec {
   width: 100%;
 }

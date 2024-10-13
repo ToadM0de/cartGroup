@@ -1,2 +1,75 @@
-.cartSec1 {
+.cartcart {
+  width: 100%;
+  height: 2000px;
+  .cartSec1 {
+    width: 100%;
+    height: 500px;
+    border: solid;
+    border-color: black;
+    border-width: 1px;
+    .miseryCart {
+      margin-top: 100px;
+      margin-left: 100px;
+      float: left;
+    }
+    .misInfo {
+      padding-top: 110px;
+      margin-left: 310px;
+      .misTitle {
+        font-weight: bold;
+      }
+      .misPrice {
+        font-weight: bold;
+        position: absolute;
+      }
+      .misStock {
+        position: absolute;
+        padding-top: 20px;
+      }
+    }
+    .misA {
+      padding-top: 80px;
+      padding-left: 310px;
+
+      a {
+        color: black;
+      }
+    }
+  }
+
+  .cartSec2 {
+    width: 100%;
+    height: 500px;
+    border: solid;
+    border-color: black;
+    border-width: 1px;
+    .autoCart {
+      margin-top: 100px;
+      margin-left: 100px;
+      float: left;
+    }
+    .autoInfo {
+      padding-top: 110px;
+      margin-left: 310px;
+      .autoTitle {
+        font-weight: bold;
+      }
+      .autoPrice {
+        font-weight: bold;
+        position: absolute;
+      }
+      .autoStock {
+        position: absolute;
+        padding-top: 20px;
+      }
+    }
+    .autoA {
+      padding-top: 80px;
+      padding-left: 310px;
+
+      a {
+        color: black;
+      }
+    }
+  }
 }
