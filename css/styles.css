@@ -724,6 +724,7 @@ nav .signInOut a img {
   margin-top: 100px;
   background-position: center;
   background-repeat: no-repeat;
+  background-size: cover;
   position: relative;
   background-image: url(../assets/images/book-club-hero.jpg);
   box-shadow: inset 0 0 0 2000px rgba(88, 124, 131, 0.6);
@@ -761,6 +762,9 @@ nav .signInOut a img {
 }
 .clubBottom .clubP1 {
   margin-top: 100px;
+}
+.clubBottom .clubP4 {
+  margin-bottom: 400px;
 }
 
 .cartcart {
