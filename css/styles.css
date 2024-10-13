@@ -838,6 +838,12 @@ nav .signInOut a img {
 
 .booksetSec {
   width: 100%;
+  height: 500px;
+}
+.booksetSec .bhBooks {
+  margin-left: 50px;
+  margin-top: 50px;
+  float: left;
 }
 .booksetSec .booksets {
   font-weight: bold;
@@ -847,18 +853,30 @@ nav .signInOut a img {
 }
 .booksetSec .twilightimg {
   margin-left: 50px;
-  margin-top: 50px;
+  margin-top: 40px;
   float: left;
 }
-.booksetSec .twiP {
-  width: 240px;
-  margin-left: 50px;
+.booksetSec .twiInfo {
+  width: 220px;
+  margin-left: 30px;
+  margin-top: 55px;
   float: left;
-  margin-top: 60px;
 }
-.booksetSec .twiPrice {
+.booksetSec .twiInfo .bhP {
+  width: 220px;
+  margin-bottom: 10px;
+}
+.booksetSec .twiInfo .twiPrice {
+  margin-top: 30px;
   font-weight: bold;
-  position: absolute;
-  margin-left: 280px;
-  margin-top: 180px;
+  margin-bottom: 40px;
+}
+.booksetSec .twiInfo .twiCart {
+  height: 60px;
+  width: 200px;
+  border: solid;
+  border-color: black;
+  border-width: 1px;
+  text-align: center;
+  padding-top: 20px;
 }
