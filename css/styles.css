@@ -210,6 +210,13 @@ footer .socials img {
   background-color: #587c83;
   cursor: pointer;
 }
+#blog .box1 .blog-text-box button a {
+  color: white;
+  font-family: "Segoe UI", Tahoma, Geneva, Verdana, sans-serif;
+  text-transform: uppercase;
+  font-size: 16px;
+  text-decoration: none;
+}
 #blog .box2 {
   margin: auto;
   height: 463px;
@@ -258,6 +265,13 @@ footer .socials img {
   background-color: #587c83;
   cursor: pointer;
 }
+#blog .box2 .blog-text-box button a {
+  color: white;
+  font-family: "Segoe UI", Tahoma, Geneva, Verdana, sans-serif;
+  text-transform: uppercase;
+  font-size: 16px;
+  text-decoration: none;
+}
 #blog .box3 {
   margin: auto;
   height: 463px;
@@ -305,6 +319,173 @@ footer .socials img {
   width: 222px;
   background-color: #587c83;
   cursor: pointer;
+}
+#blog .box3 .blog-text-box button a {
+  color: white;
+  font-family: "Segoe UI", Tahoma, Geneva, Verdana, sans-serif;
+  text-transform: uppercase;
+  font-size: 16px;
+  text-decoration: none;
+}
+
+#eRead {
+  height: 1200px;
+  width: 100%;
+}
+#eRead .eRead-Hero {
+  height: 530px;
+  width: 1200px;
+  margin-left: 170px;
+  margin-top: 100px;
+  background-size: cover;
+  background-position: center;
+  background-repeat: no-repeat;
+  position: relative;
+  background-image: url(../assets/images/eread-hero.jpg);
+  box-shadow: inset 0 0 0 2000px rgba(88, 124, 131, 0.6);
+}
+#eRead .eRead-Hero .hero-t {
+  position: relative;
+  top: 150px;
+}
+#eRead .eRead-Hero .hero-t .heroText1 {
+  color: white;
+  font-size: 32px;
+  font-family: "Segoe UI", Tahoma, Geneva, Verdana, sans-serif;
+  text-transform: uppercase;
+  font-weight: bold;
+  text-align: center;
+  padding-bottom: 40px;
+}
+#eRead .eRead-Hero .hero-t .heroText2 {
+  color: white;
+  font-family: "Segoe UI", Tahoma, Geneva, Verdana, sans-serif;
+  font-size: 26px;
+  text-align: center;
+  padding-bottom: 40px;
+}
+#eRead section {
+  padding-top: 100px;
+  height: 400px;
+  width: 1300px;
+}
+#eRead section img {
+  height: 364px;
+  width: 526px;
+  margin-left: 170px;
+}
+#eRead section .text-content {
+  width: 750px;
+  position: relative;
+  left: 730px;
+  bottom: 380px;
+}
+#eRead section .text-content #p1 {
+  font-family: "Segoe UI", Tahoma, Geneva, Verdana, sans-serif;
+  font-size: 16px;
+  color: black;
+}
+#eRead section .text-content #p2 {
+  font-family: "Segoe UI", Tahoma, Geneva, Verdana, sans-serif;
+  font-size: 16px;
+  color: black;
+}
+#eRead section .text-content #p3 {
+  font-family: "Segoe UI", Tahoma, Geneva, Verdana, sans-serif;
+  font-size: 16px;
+  color: black;
+}
+#eRead section .text-content #p4 {
+  font-family: "Segoe UI", Tahoma, Geneva, Verdana, sans-serif;
+  font-size: 16px;
+  color: black;
+}
+
+#febFav {
+  height: 1600px;
+  width: 100%;
+}
+#febFav .febFav-Hero {
+  height: 530px;
+  width: 1200px;
+  margin-left: 170px;
+  margin-top: 100px;
+  background-size: cover;
+  background-position: center;
+  background-repeat: no-repeat;
+  position: relative;
+  background-image: url(../assets/images/february-favorites-hero.jpg);
+  box-shadow: inset 0 0 0 2000px rgba(88, 124, 131, 0.6);
+}
+#febFav .febFav-Hero .hero-t {
+  position: relative;
+  top: 150px;
+}
+#febFav .febFav-Hero .hero-t .heroText1 {
+  color: white;
+  font-size: 32px;
+  font-family: "Segoe UI", Tahoma, Geneva, Verdana, sans-serif;
+  text-transform: uppercase;
+  font-weight: bold;
+  text-align: center;
+  padding-bottom: 40px;
+}
+#febFav .febFav-Hero .hero-t .heroText2 {
+  color: white;
+  font-family: "Segoe UI", Tahoma, Geneva, Verdana, sans-serif;
+  font-size: 26px;
+  text-align: center;
+  font-weight: bold;
+  padding-bottom: 40px;
+}
+#febFav .febFav-Hero .hero-t .heroText3 {
+  color: white;
+  font-family: "Segoe UI", Tahoma, Geneva, Verdana, sans-serif;
+  font-size: 16px;
+  text-align: center;
+}
+#febFav section {
+  padding-top: 100px;
+  height: 500px;
+  width: 1300px;
+}
+#febFav section img {
+  height: 380px;
+  width: 250px;
+  margin-left: 170px;
+}
+#febFav section .text-content {
+  width: 1000px;
+  position: relative;
+  left: 460px;
+  bottom: 390px;
+}
+#febFav section .text-content #title-1 {
+  font-family: "Segoe UI", Tahoma, Geneva, Verdana, sans-serif;
+  font-size: 26px;
+  color: black;
+  font-weight: bold;
+  padding-bottom: 50px;
+}
+#febFav section .text-content #title-2 {
+  font-family: "Segoe UI", Tahoma, Geneva, Verdana, sans-serif;
+  font-size: 26px;
+  color: black;
+  font-weight: bold;
+  padding-bottom: 50px;
+}
+#febFav section .text-content #p1 {
+  font-family: "Segoe UI", Tahoma, Geneva, Verdana, sans-serif;
+  font-size: 16px;
+  color: black;
+  font-weight: bold;
+  padding-bottom: 20px;
+}
+#febFav section .text-content #p2 {
+  font-family: "Segoe UI", Tahoma, Geneva, Verdana, sans-serif;
+  font-size: 16px;
+  color: black;
+  font-weight: bold;
 }
 
 nav {
@@ -419,6 +600,7 @@ nav .signInOut a img {
   margin-left: 170px;
   margin-top: 100px;
   background-position: center;
+  background-size: cover;
   background-repeat: no-repeat;
   position: relative;
   background-image: url(../assets/images/home-hero.jpg);
