@@ -1,0 +1,84 @@
+.accountSec {
+  display: inline-block;
+  width: 100%;
+  height: 650px;
+  display: flex;
+  .logIn {
+    width: 100%;
+    margin-top: 180px;
+    padding-left: 230px;
+
+    input {
+      height: 50px;
+      font-size: 14px;
+      padding-top: 30px;
+      width: 200px;
+      border: none;
+      border-bottom: solid;
+      border-width: 2px;
+    }
+    .loginHere {
+      font-size: 25px;
+    }
+
+    .loginBtn {
+      font-size: 15px;
+      padding-left: 30px;
+      margin-left: 50px;
+      margin-top: 40px;
+      padding-top: 5px;
+      background-color: #587c83;
+      color: white;
+      width: 110px;
+      height: 30px;
+    }
+  }
+  .signUp {
+    width: 100%;
+    padding-left: 230px;
+    display: inline-block;
+
+    input {
+      height: 50px;
+      font-size: 14px;
+      padding-top: 30px;
+      width: 200px;
+      border: none;
+      border-bottom: solid;
+      border-width: 2px;
+    }
+    .noAccount {
+      margin-top: 170px;
+      position: absolute;
+    }
+
+    .signUpHere {
+      font-size: 25px;
+      padding-top: 190px;
+    }
+
+    .fName {
+    }
+
+    .lName {
+    }
+
+    .signEmail {
+    }
+
+    .signpass {
+    }
+
+    .signBtn {
+      font-size: 15px;
+      padding-left: 30px;
+      margin-left: 50px;
+      margin-top: 40px;
+      padding-top: 5px;
+      background-color: #587c83;
+      color: white;
+      width: 110px;
+      height: 30px;
+    }
+  }
+}

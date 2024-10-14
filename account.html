@@ -33,7 +33,7 @@
       <div class="signInOut">
         <!-- <a href="#signIn">sign in</a> -->
         <!-- <a href="#signOut">sign out</a> -->
-         <a id="account2" href="account.html">Account
+         <a style="font-weight: bold;" id="account2" href="account.html">Account
           <img src="assets/images/user.png" alt="user">
          </a>
         <a href="cart.html">cart 
@@ -42,36 +42,34 @@
       </div>
     </nav>
 
-	<div id="blog">
-		<div class="box1">
-			<div class="b-images">
-				<img src="assets/images/becoming.jpg" alt="" id="viola">
-				<img src="assets/images/finding me.jpg" alt="" id="become">
-			</div>
-			<div class="blog-text-box">
-				<span id="top-text">febuary favorites</span>
-				<p>"Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua." Urna nunc id cursus metus aliquam eleifend mi. Massa vitae tortor condimentum lacinia quis vel eros."</p>
-				<button>Read More</button>
-			</div>
-		</div>
-		<div class="box2">
-			<img src="assets/images/open-book-blog.jpg" alt="">
-			<div class="blog-text-box">
-				<span id="top-text2">all about bookclubs</span>
-				<p>"Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua." Urna nunc id cursus metus aliquam eleifend mi. Massa vitae tortor condimentum lacinia quis vel eros."</p>
-				<button>Read More</button>
-			</div>
-		</div>
-		<div class="box3">
-			<img src="assets/images/ereading-blog.jpg" alt="">
-			<div class="blog-text-box">
-				<span id="top-text3">switching to e-reading?</span>
-				<p>"Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua." Urna nunc id cursus metus aliquam eleifend mi. Massa vitae tortor condimentum lacinia quis vel eros."</p>
-				<button>Read More</button>
-			</div>
-		</div>
-	</div>
+    <div class="accountSec">
 
+    <div class="logIn">
+      <p class="loginHere">Login Here!</p>
+      <input type="text" name=".logEmail" id="logEmail" placeholder="Email Address:">
+      <div class="passSec">
+      <input type="text" name=".logpass" id="logpass" placeholder="Password:">
+    </div>
+      <div class="loginBtn">LOGIN</div>
+    </div>
+
+
+    <div class="signUp">
+      <p class="noAccount">don't have an account?</p>
+      <p class="signUpHere">Sign up!</p>
+      <input type="text" name=".fName" id="fName" placeholder="First Name:">
+      <div class="passSec">
+      <input type="text" name=".lName" id="lName" placeholder="Last Name:">
+    </div>
+    <div class="passSec">
+      <input type="text" name=".signEmail" id="signEmail" placeholder="Email Address:">
+    </div>
+    <div class="passSec">
+      <input type="text" name=".signpass" id="signpass" placeholder="Password:">
+    </div>
+      <div class="signBtn">SIGN UP</div>
+    </div>
+  </div>
 	<footer>
       <div class="copyright">
         <p>Copyright 2022, The BookNook</p>
@@ -88,7 +86,7 @@
         <img src="assets/images/twitter_w (1).png" alt="">
       </div>
     </footer>
-    <script src=""></script>
-    <script src=""></script>
+    <script src="app/app.js"></script>
+    <script src="model/model.js"></script>
   </body>
 </html>

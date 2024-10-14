@@ -840,6 +840,74 @@ nav .signInOut a img {
   color: black;
 }
 
+.accountSec {
+  display: inline-block;
+  width: 100%;
+  height: 650px;
+  display: flex;
+}
+.accountSec .logIn {
+  width: 100%;
+  margin-top: 180px;
+  padding-left: 230px;
+}
+.accountSec .logIn input {
+  height: 50px;
+  font-size: 14px;
+  padding-top: 30px;
+  width: 200px;
+  border: none;
+  border-bottom: solid;
+  border-width: 2px;
+}
+.accountSec .logIn .loginHere {
+  font-size: 25px;
+}
+.accountSec .logIn .loginBtn {
+  font-size: 15px;
+  padding-left: 30px;
+  margin-left: 50px;
+  margin-top: 40px;
+  padding-top: 5px;
+  background-color: #587c83;
+  color: white;
+  width: 110px;
+  height: 30px;
+}
+.accountSec .signUp {
+  width: 100%;
+  padding-left: 230px;
+  display: inline-block;
+}
+.accountSec .signUp input {
+  height: 50px;
+  font-size: 14px;
+  padding-top: 30px;
+  width: 200px;
+  border: none;
+  border-bottom: solid;
+  border-width: 2px;
+}
+.accountSec .signUp .noAccount {
+  margin-top: 170px;
+  position: absolute;
+}
+.accountSec .signUp .signUpHere {
+  font-size: 25px;
+  padding-top: 190px;
+}
+.accountSec .signUp .signBtn {
+  font-size: 15px;
+  padding-left: 30px;
+  margin-left: 50px;
+  margin-top: 40px;
+  padding-top: 5px;
+  background-color: #587c83;
+  color: white;
+  width: 110px;
+  height: 30px;
+}
+
 .booksetSec {
   width: 100%;
   height: 500px;
@@ -875,14 +943,14 @@ nav .signInOut a img {
   font-weight: bold;
   margin-bottom: 40px;
 }
-.booksetSec .twiInfo .twiCart {
+.booksetSec .twiInfo #twiCart {
   height: 60px;
   width: 200px;
   border: solid;
   border-color: black;
   border-width: 1px;
   text-align: center;
-  padding-top: 20px;
+  cursor: pointer;
 }
 
 .modal {
