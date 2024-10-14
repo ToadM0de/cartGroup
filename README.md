@@ -1,4 +1,4 @@
-Ivy's reminder for things to fix
-+get home add to cart buttons working
-+get books add to cart buttons working
-+add correct font
+Homeowrk 5: BookNook
+date: 10/14/24
+Ivy: odd pages: home, books, bookClub, account, and cart pages
+Eyanla: even pages: about, blog, febuary favorites, and e-reading pages + nav & footer
