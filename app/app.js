@@ -33,7 +33,7 @@ function initListeners() {
     }
   });
 
-  $(".twiCart").on("click", function (e) {
+  $("#twiCart").on("click", function (e) {
     e.preventDefault();
     // jquarey method
     // var id = $(this).attr("id");
@@ -51,7 +51,7 @@ function loadHomePageBooks() {
     console.log(index);
     if (book.featured) {
       $("#app").append(
-        `<div class="product">
+        `<div id="twiCart">
                   <h3>${book.name}</h3>
                   <span id="p${book.id}">Add to cart</span>
                   <p>$${book.price}</p>
@@ -65,7 +65,7 @@ function loadBooks() {
   let books = getBooks();
   $.each(books, function (index, book) {
     $("#app").append(
-      `<div class="product">
+      `<div id="twiCart">
                 <h3>${book.name}</h3>
                 <span id="p${book.id}">Add to cart</span>
                 <p>$${book.price}</p>
@@ -75,7 +75,7 @@ function loadBooks() {
 }
 
 $(document).ready(function () {
-  //loadBooks();
-  loadHomePgaeBooks();
+  loadBooks();
+  loadHomePageBooks();
   initListeners();
 });
