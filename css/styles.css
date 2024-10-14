@@ -683,35 +683,35 @@ nav .signInOut a img {
   text-align: center;
   margin-top: 280px;
 }
-.homePage .homeBooks .addcartsec .addtocartbtn1 {
+.homePage .homeBooks .addcartsec #addtocartbtn1 {
   float: left;
   border: solid;
   border-color: black;
   border-width: 2px;
   height: 50px;
   width: 150px;
-  padding-top: 15px;
   margin-left: 160px;
+  cursor: pointer;
 }
-.homePage .homeBooks .addcartsec .addtocartbtn2 {
+.homePage .homeBooks .addcartsec #addtocartbtn2 {
   float: left;
   border: solid;
   border-color: black;
   border-width: 2px;
   height: 50px;
   width: 150px;
-  padding-top: 15px;
   margin-left: 370px;
+  cursor: pointer;
 }
-.homePage .homeBooks .addcartsec .addtocartbtn3 {
+.homePage .homeBooks .addcartsec #addtocartbtn3 {
   float: left;
   border: solid;
   border-color: black;
   border-width: 2px;
   height: 50px;
   width: 150px;
-  padding-top: 15px;
   margin-left: 340px;
+  cursor: pointer;
 }
 
 .clubPage {

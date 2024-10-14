@@ -133,3 +133,15 @@ spaceCart.addEventListener("click", () => {
   count += 1;
   addNum.textContent = count;
 });
+addtocartbtn1.addEventListener("click", () => {
+  count += 1;
+  addNum.textContent = count;
+});
+addtocartbtn2.addEventListener("click", () => {
+  count += 1;
+  addNum.textContent = count;
+});
+addtocartbtn3.addEventListener("click", () => {
+  count += 1;
+  addNum.textContent = count;
+});
