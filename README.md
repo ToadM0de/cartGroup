@@ -4,3 +4,4 @@ Ivy: odd pages: home, books, bookClub, account, add to cart buttons and cart pag
 Eyanla: even pages: about, blog, febuary favorites, sign in modal and e-reading pages + nav & footer
 
 https://in-info-web4.luddy.indianapolis.iu.edu/~emditzen/N315/cartGroup-12/index.html
+Eyanla web4 link: https://in-info-web4.luddy.indianapolis.iu.edu/~eygarcia/Homework5-BookNook/index.html
