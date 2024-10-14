@@ -79,11 +79,3 @@ $(document).ready(function () {
   loadHomePageBooks();
   initListeners();
 });
-
-let count = 0;
-const addNum = document.getElementById(`addNum`);
-const twiCart = document.getElementById(`twiCart`);
-twiCart.addEventListener(`click`, () => {
-  count = count + 1;
-  addNum.textContent = count;
-});
