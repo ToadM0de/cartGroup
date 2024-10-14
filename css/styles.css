@@ -950,4 +950,5 @@ nav .signInOut a img {
   border-color: black;
   border-width: 1px;
   text-align: center;
+  cursor: pointer;
 }
