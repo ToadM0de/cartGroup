@@ -2,7 +2,11 @@ export var userSignedIn = false;
 
 var cartCount = 0;
 var cartItems = [];
+var Books = [];
 
+export function getBooks() {
+  return books;
+}
 export function signIn() {
   userSignedIn = true;
   return userSignedIn;

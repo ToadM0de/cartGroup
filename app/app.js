@@ -4,7 +4,7 @@ import {
   signOut,
   addItemToCart,
   getBooks,
-} from "./../model/model.js";
+} from "../model/model.js";
 
 function initListeners() {
   $(".links a").on("click", function (e) {
@@ -78,4 +78,12 @@ $(document).ready(function () {
   loadBooks();
   loadHomePageBooks();
   initListeners();
+});
+
+let count = 0;
+const addNum = document.getElementById(`addNum`);
+const twiCart = document.getElementById(`twiCart`);
+twiCart.addEventListener(`click`, () => {
+  count = count + 1;
+  addNum.textContent = count;
 });
