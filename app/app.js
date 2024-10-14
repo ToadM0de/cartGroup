@@ -79,3 +79,57 @@ $(document).ready(function () {
   loadHomePageBooks();
   initListeners();
 });
+
+let count = 0;
+
+const addNum = document.getElementById("addNum");
+const twiCart = document.getElementById("twiCart");
+
+twiCart.addEventListener("click", () => {
+  count += 1;
+  addNum.textContent = count;
+});
+hpCart.addEventListener("click", () => {
+  count += 1;
+  addNum.textContent = count;
+});
+gotCart.addEventListener("click", () => {
+  count += 1;
+  addNum.textContent = count;
+});
+findCart.addEventListener("click", () => {
+  count += 1;
+  addNum.textContent = count;
+});
+mlkCart.addEventListener("click", () => {
+  count += 1;
+  addNum.textContent = count;
+});
+eleCart.addEventListener("click", () => {
+  count += 1;
+  addNum.textContent = count;
+});
+misCart.addEventListener("click", () => {
+  count += 1;
+  addNum.textContent = count;
+});
+frankCart.addEventListener("click", () => {
+  count += 1;
+  addNum.textContent = count;
+});
+phanCart.addEventListener("click", () => {
+  count += 1;
+  addNum.textContent = count;
+});
+winCart.addEventListener("click", () => {
+  count += 1;
+  addNum.textContent = count;
+});
+catCart.addEventListener("click", () => {
+  count += 1;
+  addNum.textContent = count;
+});
+spaceCart.addEventListener("click", () => {
+  count += 1;
+  addNum.textContent = count;
+});
