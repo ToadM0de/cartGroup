@@ -73,9 +73,3 @@ function loadBooks() {
     );
   });
 }
-
-$(document).ready(function () {
-  loadBooks();
-  loadHomePageBooks();
-  initListeners();
-});
